@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: antiquewhite;
+}
+.header{
+  margin-top: 20px;
+}
+.card-collection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px 150px;
+}
+.cards{
+  text-align: center;
+  margin: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 45vh;
+  width: 20vw;
+  background-color: aliceblue;
+}
+.cards:hover{
+  transform: translate(3px);
+}
+.standout{
+  box-shadow: rgba(0,0,0,16) 0px 1px 4px, rgb(51,51,51) 0px 0px 0px 3px;
+}
+h1,h2,h3,h4,h5,p{
+  text-align: center;
+  color: rgb(27, 249, 175);
+}
+@media only screen and (max-width:600px){
+  .card-collection{
+    grid-template-columns: 1fr;
+  }
+}
+.nav-list{
+  display: flex;
+  background-color: aliceblue;
+  padding: 10px 30px;
+  list-style: none;
+}
+.nav-link{
+  margin: 100px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.nav-link:hover{
+  color: rgb(75, 255, 195);
+  transition: ease-in-out 100ms;
+}
+.team-list{
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.selection-list{
+  padding: 10px 20vw;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: rgb(27, 249, 175);
+}
